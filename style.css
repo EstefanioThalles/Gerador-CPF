@@ -1,0 +1,80 @@
+body {
+    background: linear-gradient(167.96deg, #2A2634 0%, #271A45 100%);  
+    color: #ffffff;
+    height: 100vh;
+    font-family: "Inter", sans-serif;
+}
+
+body > div {
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    flex-direction: column; 
+    height: 100%;
+}
+
+h1 {
+    font-size: 32px;
+    font-weight: 900;
+    letter-spacing: -0.69px;
+}
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+}
+
+.buttons {
+    margin-top: 54px;
+    display: flex;
+    gap: 20px;
+}
+
+.buttons > button:first-child {
+    background: #8B5CF6;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.buttons > button:nth-child(2) {
+    background: #71717A;
+}
+
+.buttons button {
+    color: #ffffff;
+    border: none;
+    padding: 12px 20px; 
+    border-radius: 6px;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.input-cpf {
+    border: none;
+    background: #18181B;
+    padding: 12px 30px;
+    color: #ffffff;
+    border-radius: 4px;
+    margin-top: 20px;
+    font-size: 14px;
+    width: 158px;
+    margin: 20px auto 0px auto;
+}
+
+.input-pontua > div {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    width: 100%;
+    margin-top: 8px;
+    font-size: 14px;
+
+}
+
+.input-pontua > label {
+    font-size: 16px;
+    font-weight: 600;
+}
